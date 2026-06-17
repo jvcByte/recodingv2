@@ -11,6 +11,6 @@ pub async fn app_info() -> impl Responder {
 
 pub async fn health() -> impl Responder {
     HttpResponse::NotImplemented().json(json!({
-        "Error" : "Not Implemented yet"
+        "Info" : "Not Implemented yet"
     }))
 }
