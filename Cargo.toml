@@ -5,6 +5,7 @@ description = "A controlled environment for running timed coding and writing exe
 edition = "2024"
 
 [dependencies]
+actix-cors = "0.7.1"
 actix-web = "4.13.0"
 dotenvy = "0.15.7"
 env_logger = "0.11.10"
