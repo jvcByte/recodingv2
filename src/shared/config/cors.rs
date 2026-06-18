@@ -1,6 +1,10 @@
 use actix_cors::Cors;
 use actix_web::http::header;
 
+/**
+ * The `cors()` function sets up the Cross-Origin Resource Sharing (CORS) policy for the application.
+ * It allows requests using the `allowed_origin()` method.
+ */
 pub fn cors() -> Cors {
     Cors::default()
         .allowed_origin("http://localhost:3000")
