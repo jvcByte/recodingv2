@@ -5,9 +5,11 @@ description = "A controlled environment for running timed coding and writing exe
 edition = "2024"
 
 [dependencies]
+# Web Framework
 actix-cors = "0.7.1"
 actix-web = "4.13.0"
+
 dotenvy = "0.15.7"
 env_logger = "0.11.10"
-sea-orm = "1.1.20"
+sea-orm = "2.0.0-rc"
 serde_json = "1.0.150"
