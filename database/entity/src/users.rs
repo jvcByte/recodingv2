@@ -22,3 +22,5 @@ pub struct Model {
 }
 
 impl ActiveModelBehavior for ActiveModel {}
+
+pub use Entity as UsersEntity;

@@ -9,6 +9,10 @@ edition = "2024"
 actix-cors = "0.7.1"
 actix-web = "4.13.0"
 
+# Custom Crates
+entity = { path = "../database/entity" }
+migration = { path = "../database/migration" }
+
 dotenvy = "0.15.7"
 env_logger = "0.11.10"
 sea-orm = "2.0.0-rc"
